@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for True or False: Science & Space">
+  <meta name="theme-color" content="#050B18">
+  <title>Privacy Policy — True or False: Science &amp; Space</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #03060E;
+      --card: #0C1830;
+      --card-soft: #0A1428;
+      --text: #EAF2FF;
+      --muted: #A9BAD6;
+      --hint: #6F809E;
+      --accent: #67D8FF;
+      --accent-strong: #3B9DFF;
+      --accent-deep: #1F6FE0;
+      --lavender: #A78BFA;
+      --gold: #FFD166;
+      --border: rgba(103, 216, 255, .18);
+      --contact-bg: rgba(103, 216, 255, .08);
+      --switch-bg: #03060E;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background:
+        radial-gradient(ellipse at 12% 0%, rgba(31, 111, 224, .20), transparent 34rem),
+        radial-gradient(ellipse at 92% 18%, rgba(103, 216, 255, .11), transparent 30rem),
+        linear-gradient(160deg, #050B18 0%, #0E1B3F 48%, #03060E 100%);
+      background-attachment: fixed;
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    a { color: var(--accent); }
+
+    .container {
+      width: min(900px, calc(100% - 32px));
+      margin: 40px auto;
+    }
+
+    .card {
+      background: rgba(12, 24, 48, .94);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 32px;
+      box-shadow: 0 18px 60px rgba(0, 0, 0, .30);
+      backdrop-filter: blur(14px);
+    }
+
+    .header {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 12px;
+    }
+
+    .language-switcher {
+      display: inline-flex;
+      gap: 4px;
+      padding: 4px;
+      background: var(--switch-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .language-switcher button {
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 650;
+      padding: 8px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background .18s ease, color .18s ease, box-shadow .18s ease;
+    }
+
+    .language-switcher button:hover { color: var(--text); }
+
+    .language-switcher button.active {
+      background: linear-gradient(135deg, var(--accent-deep), var(--accent));
+      color: #03101F;
+      box-shadow: 0 4px 16px rgba(59, 157, 255, .20);
+    }
+
+    .brand-mark {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 4px 0 22px;
+    }
+
+    .orb {
+      width: 42px;
+      height: 42px;
+      flex: 0 0 42px;
+      border: 1px solid rgba(103, 216, 255, .65);
+      border-radius: 50%;
+      position: relative;
+      background: radial-gradient(circle at 35% 30%, rgba(103, 216, 255, .30), rgba(31, 111, 224, .08) 58%, transparent 70%);
+      box-shadow: 0 0 24px rgba(59, 157, 255, .18);
+    }
+
+    .orb::before {
+      content: "";
+      position: absolute;
+      width: 52px;
+      height: 18px;
+      left: -6px;
+      top: 11px;
+      border: 1px solid rgba(167, 139, 250, .8);
+      border-radius: 50%;
+      transform: rotate(-28deg);
+    }
+
+    .orb::after {
+      content: "";
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      right: 1px;
+      top: 7px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 10px rgba(255, 209, 102, .7);
+    }
+
+    .brand-name {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .lang { display: none; }
+    .lang.active { display: block; }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 5vw, 36px);
+      line-height: 1.2;
+      letter-spacing: -.035em;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 10px;
+      font-size: 21px;
+      line-height: 1.35;
+      color: var(--text);
+    }
+
+    p, li { color: var(--muted); }
+    strong { color: var(--text); }
+
+    .date {
+      color: var(--hint);
+      font-size: 14px;
+      margin: 0 0 28px;
+    }
+
+    .app-name {
+      color: var(--accent);
+      font-weight: 750;
+    }
+
+    .contact {
+      padding: 16px 18px;
+      background: var(--contact-bg);
+      border-radius: 12px;
+      border: 1px solid rgba(103, 216, 255, .22);
+      overflow-wrap: anywhere;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--hint);
+      font-size: 12px;
+      padding: 18px 8px 0;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container { width: min(100% - 20px, 900px); margin: 10px auto; }
+      .card { padding: 22px 18px; border-radius: 17px; }
+      h2 { font-size: 19px; }
+      .brand-mark { margin-bottom: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <article class="card">
+      <div class="header">
+        <div class="language-switcher" aria-label="Language">
+          <button id="ruButton" type="button" onclick="setLanguage('ru')">RU Русский</button>
+          <button id="enButton" type="button" onclick="setLanguage('en')">EN English</button>
+        </div>
+      </div>
+
+      <div class="brand-mark" aria-hidden="true">
+        <div class="orb"></div>
+        <div class="brand-name">Science &amp; Space</div>
+      </div>
+
+      <section id="en" class="lang">
+        <h1>Privacy Policy</h1>
+        <p class="date">Last updated: November 2, 2026</p>
+
+        <p>This Privacy Policy explains how the mobile application <span class="app-name">True or False: Science &amp; Space</span> ("the App") handles information when you use the App.</p>
+
+        <h2>1. Developer</h2>
+        <p>The App is developed and published by <strong>ABVSoft</strong>.</p>
+        <p class="contact">Privacy contact: <strong>abvsoft.apps@gmail.com</strong></p>
+
+        <h2>2. Information We Collect</h2>
+        <p>The App does not require you to create an account and does not intentionally collect information such as your name, postal address, phone number, or contacts.</p>
+        <p>Some information may be processed automatically by third-party advertising services integrated into the App. This may include device and advertising information, app usage information, and information used to provide and measure advertising.</p>
+
+        <h2>3. Advertising</h2>
+        <p>The App uses <strong>Yandex Mobile Ads</strong> to display advertisements and support the development of the App.</p>
+        <p>Depending on your location, applicable laws, and your consent choices, advertising services may process information such as advertising identifiers, device information, IP address, diagnostic information, and information related to ad interactions.</p>
+        <p>For users in regions where consent is required, the App provides a consent dialog before initializing the advertising SDK. If you refuse consent, the App passes this choice to the advertising SDK.</p>
+
+        <h2>4. Your Consent</h2>
+        <p>When required by applicable privacy laws, you can allow or refuse the processing of personal data for personalized advertising. Your choice is stored locally on your device so that the App can remember your preference.</p>
+        <p>The App does not use your consent choice to create an account or identify you personally.</p>
+
+        <h2>5. Location Information</h2>
+        <p>The App does not request precise location permission and does not intentionally collect your precise GPS location.</p>
+
+        <h2>6. Children's Privacy</h2>
+        <p>The App is intended for a general audience and is not specifically directed at children under the age of 13. The App does not knowingly collect personal information directly from children.</p>
+
+        <h2>7. Third-Party Services</h2>
+        <p>The App may use third-party services to provide advertising and related functionality. These services may process information in accordance with their own privacy policies.</p>
+        <ul><li>Yandex Mobile Ads — advertising and related measurement services.</li></ul>
+        <p>For more information about Yandex's processing of information, please refer to Yandex's applicable privacy documentation.</p>
+
+        <h2>8. Data Retention</h2>
+        <p>The App itself does not maintain a personal user account or a personal profile. Consent preferences are stored locally on your device. Information processed by third-party advertising providers is subject to their respective retention policies.</p>
+
+        <h2>9. Data Security</h2>
+        <p>We take reasonable measures to protect information processed through the App. Third-party advertising services may use encrypted connections when transmitting information.</p>
+
+        <h2>10. Changes to This Privacy Policy</h2>
+        <p>This Privacy Policy may be updated from time to time to reflect changes to the App, advertising services, or applicable legal requirements. The updated version will be published on this page with a new "Last updated" date.</p>
+
+        <h2>11. Contact</h2>
+        <p>If you have questions about this Privacy Policy or the App's privacy practices, please contact us:</p>
+        <p class="contact"><strong>abvsoft.apps@gmail.com</strong></p>
+      </section>
+
+      <section id="ru" class="lang">
+        <h1>Политика конфиденциальности</h1>
+        <p class="date">Дата последнего обновления: 2 ноября 2026 г.</p>
+
+        <p>Настоящая Политика конфиденциальности объясняет, как мобильное приложение <span class="app-name">Правда или ложь: Наука и космос</span> («Приложение») обрабатывает информацию при его использовании.</p>
+
+        <h2>1. Разработчик</h2>
+        <p>Приложение разработано и опубликовано <strong>ABVSoft</strong>.</p>
+        <p class="contact">Контакт по вопросам конфиденциальности: <strong>abvsoft.apps@gmail.com</strong></p>
+
+        <h2>2. Какую информацию мы собираем</h2>
+        <p>Для использования Приложения не требуется создавать аккаунт. Приложение не запрашивает и намеренно не собирает такие данные, как имя, почтовый адрес, номер телефона или список контактов.</p>
+        <p>Некоторые данные могут автоматически обрабатываться сторонними рекламными сервисами, интегрированными в Приложение. Это может включать информацию об устройстве и рекламном идентификаторе, сведения об использовании Приложения и данные, необходимые для показа и измерения эффективности рекламы.</p>
+
+        <h2>3. Реклама</h2>
+        <p>Приложение использует <strong>Yandex Mobile Ads</strong> для показа рекламы и поддержки дальнейшей разработки Приложения.</p>
+        <p>В зависимости от вашего местоположения, применимого законодательства и выбранных вами настроек согласия рекламные сервисы могут обрабатывать, например, рекламный идентификатор, информацию об устройстве, IP-адрес, диагностическую информацию и сведения о взаимодействии с рекламой.</p>
+        <p>Для пользователей из регионов, где требуется согласие, Приложение показывает окно согласия до инициализации рекламного SDK. Если вы отказываетесь от согласия, Приложение передает этот выбор рекламному SDK.</p>
+
+        <h2>4. Ваше согласие</h2>
+        <p>Если это требуется применимым законодательством о конфиденциальности, вы можете разрешить или запретить обработку персональных данных для персонализированной рекламы. Ваш выбор сохраняется локально на устройстве, чтобы Приложение могло запомнить ваше предпочтение.</p>
+        <p>Выбор согласия не используется Приложением для создания аккаунта или самостоятельной идентификации пользователя.</p>
+
+        <h2>5. Данные о местоположении</h2>
+        <p>Приложение не запрашивает разрешение на точное местоположение и намеренно не собирает точные GPS-координаты пользователя.</p>
+
+        <h2>6. Конфиденциальность детей</h2>
+        <p>Приложение предназначено для широкой аудитории и не ориентировано специально на детей младше 13 лет. Приложение не осуществляет намеренный прямой сбор персональных данных детей.</p>
+
+        <h2>7. Сторонние сервисы</h2>
+        <p>Приложение может использовать сторонние сервисы для показа рекламы и связанных с ней функций. Такие сервисы могут обрабатывать информацию в соответствии со своими собственными политиками конфиденциальности.</p>
+        <ul><li>Yandex Mobile Ads — сервис показа рекламы и связанной с ней аналитики.</li></ul>
+        <p>Более подробная информация об обработке данных Yandex приведена в соответствующей документации и политике конфиденциальности Yandex.</p>
+
+        <h2>8. Хранение данных</h2>
+        <p>Само Приложение не ведет персональный аккаунт или персональный профиль пользователя. Настройки согласия сохраняются локально на устройстве. Информация, обрабатываемая сторонними рекламными сервисами, хранится в соответствии с их собственными правилами.</p>
+
+        <h2>9. Безопасность данных</h2>
+        <p>Мы принимаем разумные меры для защиты информации, обрабатываемой через Приложение. Сторонние рекламные сервисы могут использовать шифрованные соединения при передаче информации.</p>
+
+        <h2>10. Изменения политики конфиденциальности</h2>
+        <p>Настоящая Политика конфиденциальности может периодически обновляться в связи с изменениями Приложения, рекламных сервисов или применимого законодательства. Актуальная версия будет опубликована на этой странице с указанием новой даты обновления.</p>
+
+        <h2>11. Контакты</h2>
+        <p>Если у вас есть вопросы по настоящей Политике конфиденциальности или обработке информации в Приложении, свяжитесь с нами:</p>
+        <p class="contact"><strong>abvsoft.apps@gmail.com</strong></p>
+      </section>
+
+      <div class="footer">ABVSoft · True or False: Science &amp; Space</div>
+    </article>
+  </main>
+
+  <script>
+    function setLanguage(language) {
+      document.querySelectorAll('.lang').forEach(section => {
+        section.classList.toggle('active', section.id === language);
+      });
+
+      document.getElementById('ruButton').classList.toggle('active', language === 'ru');
+      document.getElementById('enButton').classList.toggle('active', language === 'en');
+
+      document.documentElement.lang = language;
+      try {
+        localStorage.setItem('privacyPolicyLanguage', language);
+      } catch (error) {
+        // The page still works if local storage is unavailable.
+      }
+    }
+
+    let savedLanguage = null;
+    try {
+      savedLanguage = localStorage.getItem('privacyPolicyLanguage');
+    } catch (error) {
+      // Ignore storage access errors.
+    }
+    const browserLanguage = (navigator.language || '').toLowerCase();
+    const initialLanguage = savedLanguage || (browserLanguage.startsWith('ru') ? 'ru' : 'en');
+    setLanguage(initialLanguage);
+  </script>
+</body>
+</html>
